@@ -1,0 +1,453 @@
+/*---------------------------- HEADER & NAVIGATION SECTION ----------------------------------*/
+
+nav img.logo-img {
+  padding-left: 20px;
+}
+
+.navbar-brand {
+  color: blue;
+}
+
+.navbar.dark-blue-nav{
+  background-color: #012E4A;
+}
+
+.navbar-items-container {
+  padding-right: 20px;
+
+}
+.navbar.dark-blue-nav .nav-item .nav-link{
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.navbar.dark-blue-nav .nav-item .nav-link {
+  cursor: pointer !important;
+}
+
+.navbar.dark-blue-nav .nav-item:hover .nav-link {
+  color:#81BECE !important;
+}
+
+.navbar.dark-blue-nav .nav-item .nav-link.active {
+  color: #378BA4;
+}
+
+header .navbar span.navbar-text {
+  color: white;
+
+}
+
+.navbar-text p {
+  font-size: x-small;
+  font-weight: lighter;
+  font-family: 'Nunito', sans-serif;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.contact-info p {
+  margin: 0;
+}
+
+.contact-info p svg {
+  margin-right: 5px;
+}
+
+.contact-info p svg path {
+  fill: #378BA4;
+}
+
+.contact-info p svg:last-of-type {
+  margin-left: 10px;
+}
+
+li {
+  position: relative;
+  padding: 0 10px;
+}
+
+.form-inline .btn.btn-sm {
+  color: #81BECE;
+  background-color: white;
+  border: solid 2px #81BECE;
+}
+
+/*----------------------------------- HERO SECTION ----------------------------------------*/
+
+.hero-section {
+
+  background-color: black;
+  height: 800px;
+  position: relative;
+}
+
+.hero-section .hero-video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 55%;
+}
+
+.hero-section .hero-content {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+
+}
+
+.container h1.hero-heading {
+  color: white;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 50px;
+}
+
+.container p.hero-paragraph {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 25px;
+
+}
+
+.container .hero-button {
+  color: white;
+  display: flex;
+  justify-content: center;
+
+}
+
+.container .hero-button .btn {
+  background-color: #378BA4;
+  font-family: 'Libre Baskerville', serif;
+}
+
+/*------------------------------ MAIN SECTION -----------------------------------------*/
+
+.main-section {
+  position: relative;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.main-section-heading {
+  color: #012E4A;
+}
+.main-section-heading h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 40px;
+}
+
+.main-section-heading p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #012E4A;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+}
+
+.main-section-ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+
+.main-section-ul li {
+  padding-bottom: 20px;
+  color: #378BA4;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+}
+
+.container-fluid .image-gallery img {
+  filter: grayscale(60%);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.main-section-info p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #012E4A;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+}
+
+/*------------------------------ FOOTER SECTION ---------------------------------------*/
+
+
+
+footer.top-footer {
+  background-color: #012E4A;
+  font-size: small;
+  font-family: 'Nunito', sans-serif;
+}
+
+footer.top-footer .social-icons-section {
+  padding-top: 20px;
+
+}
+
+
+footer.top-footer ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+footer.top-footer ul li {
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  justify-content: space-around;
+
+}
+
+
+footer.top-footer ul li a{
+  color: white !important;
+  text-decoration: none !important;
+  cursor: pointer !important;
+}
+
+footer.top-footer ul li a:hover {
+  color: #81BECE !important
+}
+
+.contact-info li{
+  margin: 0;
+}
+
+.contact-info li svg{
+  margin-right: 5px;
+}
+
+
+.contact-info li svg path{
+  fill: #378BA4;
+}
+
+.contact-info li svg:last-of-type {
+  margin-left: 10px;
+}
+
+.contact-info .contact-us {
+  color: #378BA4;
+
+}
+
+.top-footer .facebook-contact-icon {
+  color: #378BA4;
+}
+
+.top-footer .twitter-contact-icon {
+  color: #378BA4;
+}
+
+.top-footer .google-contact-icon {
+  color: #378BA4;
+
+}
+
+.top-footer .instagram-contact-icon {
+  color: #378BA4;
+
+}
+
+
+div .bottom-footer {
+  background-color: #378BA4;
+}
+
+
+
+
+/*------------------------------  (PG.1) SECTION ---------------------------------------*/
+
+
+/*------------------------------ (PG.2) SECTION ---------------------------------------*/
+
+.main-section .pg-2-main-section {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+}
+
+.pg-2-main-section h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 40px;
+}
+
+.pg-2-main-section h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 30px;
+}
+
+.pg-2-main-section h4 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 20px;
+}
+
+.accordion-button {
+  color: white !important;
+  background-color: #012E4A;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #81BECE !important;
+    background-color: #012E4A;
+  }
+
+
+.border-main-pg-2 {
+  border: solid 2px #012E4A;
+  padding: 20px 20px 20px 20px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+
+}
+
+.pg-2-main-section .pg-2-date-picker {
+  color: #012E4A;
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 300px;
+}
+.pg-2-date-picker label {
+    padding-bottom: 10px;
+
+}
+
+input#birthday {
+  color: #012E4A;
+  border: solid 2px #012E4A;
+
+}
+
+.pg-2-main-section .row .card-main-body {
+  padding: 50px 50px 100px 50px;
+}
+
+.pg-2-main-section .card {
+  height: 250px;
+  width: 200px;
+}
+
+
+.pg-2-main-section .card-main-body .card-body {
+  font-size: 12px;
+}
+
+.pg-2-main-section .card-main-body img {
+  height: 125px;
+  width: 200px;
+  filter: grayscale(60%);
+
+}
+
+.pg-2-main-section .card-main-body .btn {
+
+  background-color: #378BA4;
+  border: #012E4A solid 1px;
+}
+
+.pg-2-paragraph {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a.nav-link.pg-2-contact {
+  color: #378BA4;
+  font-weight: bold;
+}
+/*------------------------------ CONTACT (PG.3) SECTION ---------------------------------------*/
+
+
+.contact-page-section{
+  position: relative;
+  margin-top:106px;
+  height: calc(100vh - 106px);
+}
+
+.contact-page-section:before{
+  content: "";
+  position: absolute;
+  background-color: #000;
+  opacity: 0.5;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.bg-image-bike{
+  background-image: url('../assets/img/mono-rickshaw-cover-photo.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  z-index: 1;
+}
+
+.contact-page-section .pg-3-contact-us {
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.contact-page-section .pg-3-contact-info {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+
+}
+
+.contact-page-section .pg-3-contact-info-detail {
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.contact-page-section .pg-3-contact-info-detail:hover {
+  color: #378BA4;
+}
+
+.contact-page-section .contact-us-button {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.contact-page-section .contact-us-button .btn {
+  background-color: #378BA4;
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+
+.accordion-button:focus{
+  border: none!important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
